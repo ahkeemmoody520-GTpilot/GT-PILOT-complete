@@ -1,3 +1,4 @@
+import Icons from '../components/icons';
 import React, { useState, useEffect, useRef } from 'react';
 import { Part } from "@google/genai";
 import { HomeIcon, ChatIcon, ExpandIcon, CollapseIcon, TrashIcon, FolderIcon, TerminalIcon, ListBulletIcon, CheckCircleIcon, SlidersIcon, XIcon, BrainIcon } from './components/icons';
