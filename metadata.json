@@ -1,7 +1,0 @@
-{
-  "name": "GT Pilot: Dual Sandbox 😎 👌 v70.9.7",
-  "description": "An advanced dual-sandbox application for generative AI, featuring a high-fidelity image generation module and a real-time voice interaction module.",
-  "requestFramePermissions": [
-    "microphone"
-  ]
-}
