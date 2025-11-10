@@ -1,26 +1,20 @@
-# GT Pilot Complete
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-**Description**  
-GT Pilot is a live tester application for demonstration and internal testing purposes. This repository contains all source code required to deploy GT Pilot, including core components, services, and configuration files.
+# Run and deploy your AI Studio app
 
-**Quick Notes**
-- This project is for testing and demo purposes only.
-- Use at your own risk; GT Pilot does not provide financial advice or guarantees.
-- Includes React/TSX components, services, and deployment configurations.
+This contains everything you need to run your app locally.
 
-**Repository Structure**
-- `components/` — All `.tsx` component files for the app
-- `services/gt-services.ts` — Core services file
-- `App.tsx` — Main application entry
-- `package.json` — Project dependencies and scripts
-- `LICENSE` — MIT License (open source, free to use under MIT terms)
-- `TERMS.md` — Disclaimer and legal terms for GT Pilot usage
+View your app in AI Studio: https://ai.studio/apps/drive/1rJhm_5UOwGI_szI_zHdJWlXXjtfbKLiz
 
-**Deployment Instructions**
-1. Clone or download the repository.
-2. Install dependencies: `npm install` or `yarn install`
-3. Start the development server: `npm run dev` or `yarn dev`
-4. Deploy to your hosting service (Render, Vercel, etc.)
+## Run Locally
 
-**Disclaimer**
-GT Pilot is provided “as-is” for testing purposes only. The repository owner is not responsible for any damages or losses resulting from its use.
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
